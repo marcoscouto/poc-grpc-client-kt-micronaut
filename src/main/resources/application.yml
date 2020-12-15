@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: client
+
+grpc:
+  channels:
+    task:
+      address: "localhost:50052"
+      plaintext: true
+      max-retry-attempts: 3
